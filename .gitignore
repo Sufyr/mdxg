@@ -1,0 +1,10 @@
+node_modules/
+out/
+dist/
+.next/
+*.vsix
+*.tsbuildinfo
+.turbo/
+.pnpm-store/
+.env
+.env.*

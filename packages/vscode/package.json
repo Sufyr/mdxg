@@ -1,0 +1,54 @@
+{
+  "name": "@mdxg/vscode",
+  "displayName": "MDXG for VS Code",
+  "description": "Reference implementation of the Markdown Experience Guidelines (MDXG) — virtual pages, dual TOC, preview/source toggle.",
+  "version": "0.0.1",
+  "license": "Apache-2.0",
+  "publisher": "ctate",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vercel-labs/mdxg",
+    "directory": "packages/vscode"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "customEditors": [
+      {
+        "viewType": "mdxg.preview",
+        "displayName": "MDXG Preview",
+        "selector": [
+          {
+            "filenamePattern": "*.md"
+          },
+          {
+            "filenamePattern": "*.markdown"
+          }
+        ],
+        "priority": "default"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "tsc -p ./",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "vscode:prepublish": "npm run compile"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/vscode": "^1.85.0",
+    "typescript": "^5.3.0"
+  },
+  "dependencies": {
+    "@mdxg/parser": "workspace:*",
+    "highlight.js": "^11.11.1",
+    "mermaid": "^11.15.0"
+  }
+}
