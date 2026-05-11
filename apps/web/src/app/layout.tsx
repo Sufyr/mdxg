@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://mdxg.dev"),
+  metadataBase: new URL("https://mdxg.org"),
   title: {
     default: "MDXG — Markdown Experience Guidelines",
     template: "%s | MDXG",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://mdxg.dev",
+    url: "https://mdxg.org",
     siteName: "MDXG",
     title: "MDXG — Markdown Experience Guidelines",
     description:

@@ -10,7 +10,7 @@ People are starting to ask agents for HTML instead of markdown because "markdown
 
 *The <a href="https://github.com/vercel-labs/mdxg/tree/main/packages/vscode" target="_blank">MDXG VS Code extension</a>, one implementation of the spec, turning a single markdown file into a navigable, multi-page experience.*
 
-**[Read the spec live at mdxg.dev →](https://mdxg.dev)**
+**[Read the spec live at mdxg.org →](https://mdxg.org)**
 
 ## What MDXG Is
 
@@ -72,7 +72,7 @@ Every company building an AI product, a developer tool, a documentation platform
 |---------|-------------|--------|
 | [@mdxg/parser](packages/parser) | Shared markdown parser | Core library |
 | [@mdxg/vscode](packages/vscode) | VS Code extension | Reference implementation |
-| [@mdxg/web](apps/web) | Documentation site ([mdxg.dev](https://mdxg.dev)) | Reference implementation |
+| [@mdxg/web](apps/web) | Documentation site ([mdxg.org](https://mdxg.org)) | Reference implementation |
 
 ## For Implementors
 

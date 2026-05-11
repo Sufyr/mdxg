@@ -41,7 +41,7 @@ For changes to existing packages:
 ```
 packages/parser   → @mdxg/parser, shared markdown parser (the foundation)
 packages/vscode   → @mdxg/vscode, VS Code extension
-apps/web          → @mdxg/web, documentation site (mdxg.dev)
+apps/web          → @mdxg/web, documentation site (mdxg.org)
 ```
 
 The parser is the core library. Both the VS Code extension and web app wrap it with platform-specific code renderers (highlight.js and Shiki, respectively).
