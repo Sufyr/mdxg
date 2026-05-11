@@ -2,9 +2,11 @@
 
 **A specification for how interfaces should present and interact with markdown documents.**
 
-Markdown is the best format for AI agents: low token cost, easy to parse, universally supported. But for the humans reading it, the experience has never kept up. A 50-line README and a 3,000-line technical spec typically get the same treatment: a flat scroll of rendered text with no navigation or sense of structure.
+Markdown is the most widely supported document format in software. Every AI model speaks it. Every developer reads it. Every platform renders it. But the experience of *using* markdown has barely changed in twenty years.
 
-People are starting to ask agents for HTML instead of markdown because "markdown isn't made for humans." MDXG fixes that. It keeps markdown as the format (great for agents) and makes the *presentation* great for humans too.
+A 50-line README and a 3,000-line technical spec get the same treatment: a flat scroll of rendered text. No navigation. No structure. No sense of where you are.
+
+MDXG fixes this.
 
 ![MDXG Preview](assets/screenshot.png)
 
